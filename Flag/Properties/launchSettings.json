@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Flag (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Flag (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
