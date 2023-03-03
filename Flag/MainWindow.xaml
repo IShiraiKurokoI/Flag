@@ -10,7 +10,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Loaded="StackPanel_Loaded">
         <Button x:Name="myButton" Click="myButton_Click" Width="500" Height="300" FontSize="50">点击获取FLAG</Button>
     </StackPanel>
 </Window>
