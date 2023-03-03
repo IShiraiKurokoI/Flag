@@ -62,7 +62,7 @@ namespace Flag
             {
                 try
                 {
-                    var ver = await UpdateHelper.CheckUpdateAsync("IShiraiKurokoI", "Flag", new Version(string.Format("{0}.{1}.{2}.{3}",
+                    var ver = await Flag.UpdateHelper.CheckUpdateAsync("IShiraiKurokoI", "Flag", new Version(string.Format("{0}.{1}.{2}.{3}",
                             Package.Current.Id.Version.Major,
                             Package.Current.Id.Version.Minor,
                             Package.Current.Id.Version.Build,
